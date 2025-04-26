@@ -1,0 +1,28 @@
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 32px;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 64px;
+  }
+
+  .logo-grid2{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 64px;
+  }
+  
+  .logo {
+  width: 144px;
+    height: 96px;
+  }
+  
+  .logo img {
+    max-width: 132px;
+    height:auto;
+    object-fit: contain;
+  }
