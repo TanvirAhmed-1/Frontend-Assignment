@@ -26,3 +26,6 @@
     height:auto;
     object-fit: contain;
   }
+  .brand{
+    margin: 64px 112px;
+  }

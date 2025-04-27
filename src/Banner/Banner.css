@@ -3,6 +3,7 @@
     padding: 60px 20px;
     max-width: 1200px;
     margin: 0 auto;
+    background: linear-gradient(360deg,rgba(161, 167, 209, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
 }
 
 .subtitle {

@@ -5,15 +5,16 @@
     padding: 24px;
 }
 
-.back-text {
+.Visit-text {
     text-decoration: none;
     font-size: 14px;
     display: inline-block;
     margin-bottom: 24px;
     border-radius: 20px;
-    padding: 6px 10px;
-    color: #5850ec;
+    padding: 4px 10px;
+    color: #4F46E5;
     border: none;
+    background-color: #EEF2FF;
 }
 
 .back-link:hover {

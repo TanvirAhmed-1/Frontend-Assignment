@@ -11,7 +11,7 @@ import Img8 from "../assets/brand/Company Logo (5).png";
 const Brand = () => {
   return (
     <div>
-      <div>
+      <div class="brand">
         <div class="logo-grid">
           <div class="logo">
             <img src={Img1} alt="" srcset="" />
