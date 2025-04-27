@@ -16,16 +16,59 @@
     margin-bottom: 64px;
   }
   
-  .logo {
-  width: 144px;
+  .logo1 {
+    width: 144px;
     height: 96px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
   }
   
-  .logo img {
+  .logo1 img {
     max-width: 132px;
     height:auto;
     object-fit: contain;
   }
   .brand{
-    margin: 64px 112px;
+    padding: 64px 112px;
+    max-width: 1140px;
+    margin: auto;
+  }
+
+
+  @media (max-width: 768px) {
+    .logo-grid2{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5px;
+      align-items: center;
+      justify-items: center;
+      margin-bottom:20px;
+    }
+    .logo-grid{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5px;
+      align-items: center;
+      justify-items: center;
+      margin-bottom: 20px; 
+    }
+    .brand{
+      padding: 64px 2px;
+      width: auto;
+      margin: auto;
+    }
+    .logo1 img {
+      width:100%;
+      height:auto;
+      margin: 0;
+      padding: 0;
+      object-fit: contain;
+    }
+    .logo1 {
+     justify-items: center;
+      width: 100%;
+      justify-content: center;
+    }
+
   }

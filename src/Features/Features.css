@@ -1,8 +1,8 @@
 .features-container {
-    border: 1px solid #90caf9;
-    border-radius: 8px;
-    padding: 64px 112px;
+    padding: 0px 112px;
     margin-bottom: 48px;
+    max-width: 1440px;
+    margin: auto;
   }
   
   .features-header {
@@ -16,14 +16,18 @@
     margin-bottom: 8px;
   }
   
-  h2 {
-    font-size: 28px;
+  .features-header h2 {
+    font-size: 36px;
+    font-weight: 800;
     font-weight: bold;
     margin-bottom: 16px;
   }
   
   .description {
+    font-size: 20px;
+    font-weight: 400;
     max-width: 800px;
+    line-height: 160%;
     margin: 0 auto;
     color: #666;
   }
@@ -36,11 +40,11 @@
   }
   
   .feature-card {
-    border: 1px dashed #d1c4e9;
-    border-radius: 8px;
     padding: 24px;
     text-align: center;
     width: 384px;
+    background-color: white;
+    box-shadow: none;
   }
   
   .icon {
@@ -62,4 +66,25 @@
   .feature-card p {
     font-size: 14px;
     color: #666;
+  }
+
+  @media (max-width: 768px) {
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 0px;
+    }
+    .features-container {
+      border: none;
+      border-radius: 8px;
+      padding: 64px 10px;
+      margin-bottom: 48px;
+  }
+  .feature-card {
+    border: 1px dashed #d1c4e9;
+    border-radius: 8px;
+    padding: 24px;
+    text-align: center;
+    width:auto;
+}
   }

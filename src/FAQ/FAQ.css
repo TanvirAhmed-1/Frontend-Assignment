@@ -1,21 +1,28 @@
-container {
+.faq1 {
     width: 100%;
-    max-width: 800px;
-    padding: 20px;
+    max-width: 1400px;
+    padding: 96px 320px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
 }
 
 .faq-container {
     background-color: white;
     border-radius: 12px;
     padding: 40px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    max-width: 800px;
+    margin: auto;
 }
 
-.feq1 {
+.f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-title {
     font-size: 14px;
     display: inline-block;
-    justify-items: center;
-    justify-content: center;
     margin-bottom: 24px;
     border-radius: 20px;
     padding: 4px 10px;
@@ -24,29 +31,21 @@ container {
     background-color: #EEF2FF;
     text-align: center;
 }
-.feq-title{
+
+.faq-title1 {
     color: rgb(30, 41, 59);
     font-size: 36px;
     font-weight: 800;
     line-height: 44px;
-    letter-spacing: -1.4%;
     text-align: center;
 }
 
-/* h1 {
-    font-size: 28px;
-    color: #222;
-    margin-bottom: 16px;
-    text-align: center;
-} */
-
-.title-2{
+.title-2 {
     color: rgb(71, 85, 105);
     font-size: 1.28rem;
     font-weight: 400;
     line-height: 160%;
     text-align: center;
-
 }
 
 .accordion {
@@ -86,13 +85,20 @@ container {
 
 .question {
     flex: 1;
+    font-size: 25px;
     font-weight: 500;
     color: #333;
 }
 
-.arrow {
-    margin-left: 16px;
-    color: #999;
+.arrow1 {
+    margin-top: 9px;
+    font-size: 30px;
+    border: 1px solid gainsboro;
+    padding: 20px 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: transform 0.3s ease;
 }
 
@@ -104,10 +110,48 @@ container {
     font-size: 15px;
 }
 
+.accordion-content p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
 .accordion-item.active .accordion-content {
     display: block;
 }
 
 .accordion-item.active .arrow {
     transform: rotate(180deg);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .faq1 {
+        width: auto;
+        padding: 16px;
+    }
+    .faq-container {
+        padding: 20px;
+    }
+    .feq-title1 {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .question {
+        font-size: 20px;
+    }
+    .accordion-content p {
+        font-size: 18px;
+    }
+    .arrow1 {
+        margin-top: 9px;
+        font-size: 16px;
+        border: 1px solid gainsboro;
+        padding: 15px 15px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.3s ease;
+    }
 }

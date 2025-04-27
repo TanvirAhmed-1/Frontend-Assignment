@@ -4,7 +4,7 @@ import "./OurOffice.css"
 const OurOffice = () => {
   return (
     <div>
-      <div class="container">
+      <div class="OurOffice">
         <button class="Visit-text">
         Visit Us Anytime
         </button>

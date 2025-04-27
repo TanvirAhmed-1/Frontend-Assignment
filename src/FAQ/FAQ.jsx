@@ -34,10 +34,12 @@ const FAQ = () => {
   };
 
   return (
-    <div class="container">
+    <div class="faq1">
       <div class="faq-container">
-        <span class="feq1">FAQ</span>
-        <h1 class="feq-title">Frequently Asked Questions</h1>
+        <div class="f">
+        <span class="f-title">FAQ</span>
+        </div>
+        <h1 class="feq-title1">Frequently Asked Questions</h1>
         <p class="title-2">
           Fermentum facilisis eu non diam phasellus vestibulum. Volutpat commodo sed egestas egestas fringilla phasellus. Donec ac odio tempor orci dapibus ultrices.
         </p>
@@ -53,8 +55,8 @@ const FAQ = () => {
                   <IoIosHelpCircleOutline size={24} />
                 </div>
                 <div class="question">{item.question}</div>
-                <div class={`arrow ${activeIndex === index ? "rotate" : ""}`}>
-                  <IoIosArrowDown size={24} />
+                <div class={`arrow1 ${activeIndex === index ? "rotate" : ""}`}>
+                  <IoIosArrowDown class="arrowDown" />
                 </div>
               </div>
               {activeIndex === index && item.answer && (

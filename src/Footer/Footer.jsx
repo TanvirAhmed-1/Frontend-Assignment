@@ -1,11 +1,12 @@
 
 import "./Footer.css";
 import Img1 from "../assets/icon/Logomark.png"
+import { IoIosArrowUp } from "react-icons/io";
 
 const Footer = () => {
   return (
     <div>
-      <div class="container">
+      <div class="footer">
         <footer class="site-footer">
           <div class="footer-content">
             <div class="footer-column">
@@ -161,6 +162,7 @@ const Footer = () => {
             <div class="copyright">
               Copyright 2025 slothUI. All Rights Reserved.
             </div>
+            <IoIosArrowUp class="arrow" />
           </div>
         </footer>
       </div>

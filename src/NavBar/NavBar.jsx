@@ -1,33 +1,34 @@
 import "./NavBar.css";
+import Img from "../assets/icon/Logomark.png"
 
 const NavBar = () => {
   return (
     <div>
       <nav class="navbar">
         <div class="logo">
-          <i class="fa-solid fa-circle-notch"></i>
+          <img src={Img} alt="" srcset="" />
           <span>slothful</span>
         </div>
         <div class="menu">
           <a href="#">
-            <i class="fa-solid fa-puzzle-piece"></i>Features
+            Features
           </a>
           <a href="#">
-            <i class="fa-solid fa-trophy"></i>Achievements
+            Achievements
           </a>
           <a href="#">
-            <i class="fa-solid fa-comment"></i>Testimonials
+            Testimonials
           </a>
           <a href="#">
-            <i class="fa-solid fa-circle-question"></i>FAQ
+            FAQ
           </a>
         </div>
         <div class="auth-buttons">
           <a href="#" class="btn-signup">
-            <i class="fa-solid fa-user-plus"></i>Sign Up
+            Sign Up
           </a>
           <a href="#" class="btn-login">
-            <i class="fa-solid fa-right-to-bracket"></i>Log In
+            Log In
           </a>
         </div>
       </nav>

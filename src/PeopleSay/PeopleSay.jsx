@@ -16,7 +16,7 @@ import Img9 from "../assets/Avatar/Avatar (9).png"
 const PeopleSay = () => {
     return (
         <div>
-                <div class="container">
+                <div class="PeopleSay">
         <div class="testimonials-header">
             <h3 class="subtitle">Testimonials</h3>
             <h2 class="title">What People Say</h2>

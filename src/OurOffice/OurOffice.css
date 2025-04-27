@@ -1,5 +1,5 @@
 
-.container {
+.OurOffice {
     max-width: 1200px;
     margin: 0 auto;
     padding: 24px;
@@ -60,12 +60,24 @@
 }
 
 .country {
-    font-weight: 600;
+    
     margin-bottom: 4px;
+    font-size: 18px;
+     font-weight: 800;
 }
 
 .address {
     font-size: 14px;
     color: #666;
     line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+
+    .office-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    } 
+
 }

@@ -10,21 +10,23 @@ import OurOffice from "./OurOffice/OurOffice";
 import PeopleSay from "./PeopleSay/PeopleSay";
 import For from "./Procrastinators/For";
 import "./App.css"
+import Primary from "./Primary/Primary";
 
 
 function App() {
   return (
     <>
       <NavBar></NavBar>
-      <Banner></Banner>
+       <Banner></Banner>
       <Brand></Brand>
       <Features></Features>
+      <Primary></Primary>
       <For></For>
       <PeopleSay></PeopleSay>
       <OurOffice></OurOffice>
       <FAQ></FAQ>
       <DownloadApps></DownloadApps>
-      <Footer></Footer>
+      <Footer></Footer>  
      
     </>
   );
