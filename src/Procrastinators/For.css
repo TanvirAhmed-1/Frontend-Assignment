@@ -23,6 +23,11 @@
 
 .header {
     margin-bottom: 8px;
+    color: rgb(30, 41, 59);
+    font-family: Plus Jakarta Sans;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 100px;
    
 }
 
@@ -49,19 +54,22 @@
     font-weight: 700;
     color: #1a202c;
     margin-bottom: 16px;
+    margin: 20px 0px;
+
 }
 
 .intro-text {
-    color: #4a5568;
-    font-size: 16px;
+    color: rgb(71, 85, 105);
     margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .box {
-    border-left: 2px solid #88939e;
     border-radius: 4px;
     padding: 16px;
     margin-bottom: 16px;
+    
 }
 .box:hover{
     border-left: 2px solid #4F46E5;  
@@ -81,7 +89,6 @@
 /* Dashboard Image */
 .dashboard-column {
     position: relative;
-    border: 1px dashed #3182ce;
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -91,7 +98,7 @@
 
 .dashboard-image {
     max-width: 100%;
-    height: auto;
+    height: 90%;
     object-fit: contain;
 }
 
@@ -120,5 +127,8 @@
     }
     .logo img{
         width: 24%;
+    }
+    .header{
+        margin-top: 20px;
     }
 }

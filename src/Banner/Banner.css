@@ -1,7 +1,7 @@
 .hero {
     text-align: center;
-    padding: 60px 20px;
-    max-width: 1200px;
+    padding: 60px 20px 0 20px;
+    max-width: 1440px;
     margin: 0 auto;
     background: linear-gradient(360deg,rgba(161, 167, 209, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
 }
@@ -91,6 +91,12 @@
 
 .dashboard-main {
 width: auto;
+max-width: 800px;
+margin: auto;
+display: flex;
+justify-content: center;
+justify-items: center;
+
 
 }
 
@@ -102,7 +108,7 @@ width: auto;
 }
 
 .dashboard-main img {
-    width: 100%;
+    width: 120%;
     height: auto;
     overflow: hidden;
 }
@@ -110,7 +116,7 @@ width: auto;
 .dashboard-mobile {
     position: absolute;
    top:180px ;
-    right: -20px;
+    right: -28px;
     width: 220px;
     overflow: hidden;
     

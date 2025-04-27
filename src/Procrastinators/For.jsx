@@ -44,10 +44,9 @@ const For = () => {
             </div>
           </div>
 
-          {/* <!-- Right Column - Dashboard Image --> */}
+          {/* Image  */}
           <div className="dashboard-column">
             <img src={Img1} alt="" className="dashboard-image" />
-            <div className="image-label">Fill (592) × 592</div>
           </div>
         </div>
       </div>
