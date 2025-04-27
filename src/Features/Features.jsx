@@ -8,7 +8,7 @@ import Img6 from "../assets/icon/ChartLine.png"
 
 const Features = () => {
   return (
-    <div>
+    <div id="Features">
       <div className="features-container">
         <div className="features-header">
           <p className="subtitle">Our Main Features</p>

@@ -3,7 +3,7 @@ import "./Primary.css";
 
 const Primary = () => {
   return (
-    <div className="body">
+    <div id="achieve" className="body">
       <div className="content">
         <div className="icon">
         <GoHome className="home-icon" />

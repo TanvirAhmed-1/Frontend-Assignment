@@ -18,10 +18,10 @@ const NavBar = () => {
         </div>
         
         <div className={`menu ${menuOpen ? "open" : ""}`}>
-          <a href="#">Features</a>
-          <a href="#">Achievements</a>
-          <a href="#">Testimonials</a>
-          <a href="#">FAQ</a>
+          <a href="#Features">Features</a>
+          <a href="#achieve">Achievements</a>
+          <a href="#Testimonials">Testimonials</a>
+          <a href="#faq">FAQ</a>
           <div className="mobile-auth-buttons">
             <a href="#" className="btn-signup">
               Sign Up

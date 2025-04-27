@@ -14,7 +14,7 @@ import Img8 from "../assets/Avatar/Avatar (8).png";
 import Img9 from "../assets/Avatar/Avatar (9).png";
 const PeopleSay = () => {
   return (
-    <div>
+    <div id="Testimonials">
       <div className="PeopleSay">
         <div className="testimonials-header">
           <h3 className="subtitle">Testimonials</h3>

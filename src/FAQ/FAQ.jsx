@@ -34,7 +34,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="faq1">
+    <div id="faq" className="faq1">
       <div className="faq-container">
         <div className="f">
         <span className="f-title">FAQ</span>
