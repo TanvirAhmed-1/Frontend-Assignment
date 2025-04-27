@@ -6,10 +6,10 @@ import { IoIosArrowUp } from "react-icons/io";
 const Footer = () => {
   return (
     <div>
-      <div class="footer">
-        <footer class="site-footer">
-          <div class="footer-content">
-            <div class="footer-column">
+      <div className="footer">
+        <footer className="site-footer">
+          <div className="footer-content">
+            <div className="footer-column">
               <h3>Site Map</h3>
               <ul>
                 <li>
@@ -33,7 +33,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div class="footer-column">
+            <div className="footer-column">
               <h3>Services</h3>
               <ul>
                 <li>
@@ -57,7 +57,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div class="footer-column">
+            <div className="footer-column">
               <h3>Product</h3>
               <ul>
                 <li>
@@ -81,7 +81,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div class="footer-column">
+            <div className="footer-column">
               <h3>Help & Support</h3>
               <ul>
                 <li>
@@ -105,7 +105,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div class="footer-column">
+            <div className="footer-column">
               <h3>Legal</h3>
               <ul>
                 <li>
@@ -129,7 +129,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div class="footer-column">
+            <div className="footer-column">
               <h3>Pricing</h3>
               <ul>
                 <li>
@@ -154,15 +154,15 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="footer-bottom">
-            <div class="logo">
+          <div className="footer-bottom">
+            <div className="logo">
               <img src={Img1} alt="" srcset="" />
-              <span class="logo-text-1">slothui</span>
+              <span className="logo-text-1">slothui</span>
             </div>
-            <div class="copyright">
+            <div className="copyright">
               Copyright 2025 slothUI. All Rights Reserved.
             </div>
-            <IoIosArrowUp class="arrow" />
+            <IoIosArrowUp className="arrow" />
           </div>
         </footer>
       </div>

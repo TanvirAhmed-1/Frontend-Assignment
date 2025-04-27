@@ -34,33 +34,35 @@ const FAQ = () => {
   };
 
   return (
-    <div class="faq1">
-      <div class="faq-container">
-        <div class="f">
-        <span class="f-title">FAQ</span>
+    <div className="faq1">
+      <div className="faq-container">
+        <div className="f">
+        <span className="f-title">FAQ</span>
         </div>
-        <h1 class="feq-title1">Frequently Asked Questions</h1>
-        <p class="title-2">
+        <div className="feq-title">
+        <h1 className="feq-title1">Frequently Asked Questions</h1>
+        </div>
+        <p className="title-2">
           Fermentum facilisis eu non diam phasellus vestibulum. Volutpat commodo sed egestas egestas fringilla phasellus. Donec ac odio tempor orci dapibus ultrices.
         </p>
 
-        <div class="accordion">
+        <div className="accordion">
           {faqData.map((item, index) => (
             <div
               key={index}
-              class={`accordion-item ${activeIndex === index ? "active" : ""}`}
+              className={`accordion-item ${activeIndex === index ? "active" : ""}`}
             >
-              <div class="accordion-header" onClick={() => toggleAccordion(index)}>
-                <div class="icon-wrapper">
+              <div className="accordion-header" onClick={() => toggleAccordion(index)}>
+                <div className="icon-wrapper">
                   <IoIosHelpCircleOutline size={24} />
                 </div>
-                <div class="question">{item.question}</div>
-                <div class={`arrow1 ${activeIndex === index ? "rotate" : ""}`}>
-                  <IoIosArrowDown class="arrowDown" />
+                <div className="question">{item.question}</div>
+                <div className={`arrow1 ${activeIndex === index ? "rotate" : ""}`}>
+                  <IoIosArrowDown className="arrowDown" />
                 </div>
               </div>
               {activeIndex === index && item.answer && (
-                <div class="accordion-content">
+                <div className="accordion-content">
                   <p>{item.answer}</p>
                 </div>
               )}

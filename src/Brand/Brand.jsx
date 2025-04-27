@@ -11,42 +11,42 @@ import Img8 from "../assets/brand/Company Logo (5).png";
 const Brand = () => {
   return (
     <div>
-      <div class="brand">
-        <div class="logo-grid">
-          <div class="logo1">
+      <div className="brand">
+        <div className="logo-grid">
+          <div className="logo1">
             <img src={Img1} alt="" srcset="" />
           </div>
-          <div class="logo1">
+          <div className="logo1">
             <img src={Img2} alt="" srcset="" />
           </div>
-          <div class="logo1">
+          <div className="logo1">
             <img src={Img3} alt="" srcset="" />
           </div>
-          <div class="logo1">
+          <div className="logo1">
             <img src={Img4} alt="" srcset="" />
           </div>
-          <div class="logo1">
+          <div className="logo1">
             <img src={Img5} alt="" srcset="" />
           </div>
-          <div class="logo1">
+          <div className="logo1">
             <img src={Img6} alt="" srcset="" />
           </div>
         </div>
 
-        <div class="logo-grid2">
-          <div class="logo1">
+        <div className="logo-grid2">
+          <div className="logo1">
             <img src={Img7} alt="" srcset="" />
           </div>
-          <div class="logo1">
+          <div className="logo1">
             <img src={Img8} alt="" srcset="" />
           </div>
-          <div class="logo1">
+          <div className="logo1">
             <img src={Img4} alt="" srcset="" />
           </div>
-          <div class="logo1">
+          <div className="logo1">
             <img src={Img5} alt="" srcset="" />
           </div>
-          <div class="logo1">
+          <div className="logo1">
             <img src={Img6} alt="" srcset="" />
           </div>
         </div>

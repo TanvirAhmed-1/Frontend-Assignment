@@ -8,7 +8,7 @@ const DownloadApps = () => {
       <div className="con">
         <div className="left-section">
           <h1>Let's Download The App.</h1>
-          <p class="app-title">
+          <p className="app-title">
             Velit scelerisque in dictum non consectetur. Felis eget velit aliquet sagittis. 
             Ultricies integer quis auctor elit sed vulputate mi. Massa id neque aliquam vestibulum morbi blandit cursus.
           </p>

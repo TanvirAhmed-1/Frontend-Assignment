@@ -9,21 +9,21 @@ import Img6 from "../assets/icon/ChartLine.png"
 const Features = () => {
   return (
     <div>
-      <div class="features-container">
-        <div class="features-header">
-          <p class="subtitle">Our Main Features</p>
+      <div className="features-container">
+        <div className="features-header">
+          <p className="subtitle">Our Main Features</p>
           <h2>Our Primary Features</h2>
-          <p class="description">
+          <p className="description">
             Volutpat commodo sed egestas egestas fringilla phasellus. Tincidunt
             eget nullam non nisi. Nisi porta lorem mollis aliquam ut porttitor
             leo.
           </p>
         </div>
 
-        <div class="features-grid">
+        <div className="features-grid">
           {/* section 1 */}
-          <div class="feature-card">
-            <div class="icon lightning-icon">
+          <div className="feature-card">
+            <div className="icon lightning-icon">
               <img src={Img5} alt="" srcset="" />
             </div>
             <h3>Lazy Efficient</h3>
@@ -35,8 +35,8 @@ const Features = () => {
           </div>
 
           {/* section 2 */}
-          <div class="feature-card">
-            <div class="icon gear-icon">
+          <div className="feature-card">
+            <div className="icon gear-icon">
               <img src={Img1} alt="" srcset="" />
             </div>
             <h3>Streamlined Process</h3>
@@ -47,8 +47,8 @@ const Features = () => {
           </div>
 
           {/* section 3 */}
-          <div class="feature-card">
-            <div class="icon rocket-icon">
+          <div className="feature-card">
+            <div className="icon rocket-icon">
               <img src={Img3} alt="" srcset="" />
             </div>
             <h3>Minimum Effort</h3>
@@ -59,8 +59,8 @@ const Features = () => {
           </div>
 
           {/* section  4 */}
-          <div class="feature-card">
-            <div class="icon chart-icon">
+          <div className="feature-card">
+            <div className="icon chart-icon">
               <img src={Img6} alt="" srcset="" />
             </div>
             <h3>Absolutely Easy To Use</h3>
@@ -71,8 +71,8 @@ const Features = () => {
           </div>
 
           {/* section 5 */}
-          <div class="feature-card">
-            <div class="icon moon-icon">
+          <div className="feature-card">
+            <div className="icon moon-icon">
               <img src={Img2} alt="" srcset="" />
             </div>
             <h3>Just Sleep & Chill</h3>
@@ -84,8 +84,8 @@ const Features = () => {
           </div>
 
           {/* section 7 */}
-          <div class="feature-card">
-            <div class="icon smile-icon">
+          <div className="feature-card">
+            <div className="icon smile-icon">
             <img src={Img4} alt="" srcset="" />
             </div>
             <h3>Don't Worry About Life</h3>

@@ -3,10 +3,10 @@ import "./Primary.css";
 
 const Primary = () => {
   return (
-    <div class="body">
-      <div class="content">
-        <div class="icon">
-        <GoHome class="home-icon" />
+    <div className="body">
+      <div className="content">
+        <div className="icon">
+        <GoHome className="home-icon" />
         </div>
 
         <h1>Work lazily and achieve the result you want.</h1>
@@ -17,18 +17,18 @@ const Primary = () => {
           iaculis eu non diam.
         </p>
 
-        <div class="stats">
-          <div class="stat">
+        <div className="stats">
+          <div className="stat">
             <h2>420%</h2>
             <p>Data Efficiency</p>
           </div>
 
-          <div class="stat">
+          <div className="stat">
             <h2>708+</h2>
             <p>Conversion Rate</p>
           </div>
 
-          <div class="stat">
+          <div className="stat">
             <h2>1.82M</h2>
             <p>AI LLM Scale</p>
           </div>

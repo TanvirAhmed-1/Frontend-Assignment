@@ -39,6 +39,11 @@
     line-height: 44px;
     text-align: center;
 }
+.feq-title{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
 
 .title-2 {
     color: rgb(71, 85, 105);
